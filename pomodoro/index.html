@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <main class="pomodoro-container">
+      <section class="timer-mode">
+        <button id="btnWork" class="mode-button">Foco</button>
+        <button id="btnBreak" class="mode-button">Pausa Curta</button>
+      </section>
+
+      <section id="timerDisplay" class="timer-display">25:00</section>
+
+      <section class="timer-controls">
+        <button id="startButton">Iniciar</button>
+        <button id="pauseButton">Pausar</button>
+        <button id="resetButton">Reiniciar</button>
+      </section>
+
+      <p id="statusMessage" class="status-message">Hora de focar!!!</p>
+    </main>
+
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
